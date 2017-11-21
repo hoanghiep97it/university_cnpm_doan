@@ -1,0 +1,360 @@
+/* ------------------------- */
+/* REUSABLE COMPONENTS */
+/* --------------------------*/
+.wrap{
+    margin: 0px;
+    padding: 0px;
+    background-color: #bce8f1;
+    height: 800px;
+}
+.header-title {
+    background-color: rgba(0, 0, 0, 0.89);
+    display: flex;
+}
+.left-header{
+    margin: auto;
+    text-align: center;
+}
+.left-header p {
+    margin: auto 25px;
+    font-size: 1em;
+    line-height: 0.8;
+    color: #f5b120;
+    text-transform: capitalize;
+    letter-spacing: 3.7px;
+    padding-bottom: 10px;
+}
+.main-name{
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.left-header p {
+    line-height: 1.3em;
+}
+
+.center-header{
+    margin: auto;
+    text-align: center;
+}
+
+.center-icon{
+    display: inline-block;
+    width: 50px;
+    height:50px;
+    text-align: center;
+
+}
+.right-header{
+    margin: auto;
+}
+
+.search-group {
+    margin-top: 2px;
+    float: right;
+    width: 100%;
+}
+
+.search-group .input-group-addon {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.search-group .glyphicon {
+    font-size: 22px;
+}
+
+.search-group input {
+    height: 41px;
+}
+
+.search-group button {
+    margin-left: -2px;
+}
+.icon-menu {
+    margin-right: 5px;
+}
+
+/*css for header-menu*/
+/* inline on the menu*/
+.menu {
+    margin:0px;
+    padding:15px  15px;
+    background: #3fa46a;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+    position: relative;
+
+}
+nav li {
+    display: inline;
+    float: none;
+}
+
+nav li a {
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+.effect-menu {
+    transition: 0.3s ease;
+    background: #3fa46a;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 3px solid #3fa46a;
+    border-bottom: 3px solid #3fa46a;
+    padding: 15px 0;
+    margin: 0 30px;
+}
+.effect-menu:hover {
+    color: white;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+/*@@@@@*/
+nav a#pull-menu {
+    display: none;
+}
+nav a#pull-logo{
+    display: none;
+}
+.glyphin-menu{
+    font-size: 30px;
+    margin: 0px auto;
+    padding: 0px 0px !important;
+}
+.glyphin-logo{
+    font-size: 30px;
+}
+@media(max-width:992px) {
+    .center-header {
+        display: none;
+    }
+    .search-group{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .left-header {
+        margin-bottom: 10px;
+    }
+    .header-title{
+        display: block;
+    }
+    .menu .effect-menu{
+        display: none;
+    }
+    .menu{
+        height: 55px;
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .menu a#pull-menu {
+        float: right;
+        display: block;
+        text-align: center;
+    }
+    .menu a#pull-logo{
+        float: left;
+        display: inline-flex;
+        text-decoration: none;
+    }
+    .left-map{
+        display: none;
+    }
+
+}
+.container{
+}
+.carousel slide{
+    position: relative;
+}
+.wrapper{
+    margin-top: 5px;
+}
+
+.box-educate{
+    padding: 20px 20px;
+    height: 200px;
+}
+.my-text{
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 20px 20px;
+    background-color: #1b6d85;
+}
+.transform-group{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.transform-top{
+    transform: matrix3d(1,0,0.00,0,0.00,0.08,1.00,-0.001,0,-1,0.08,0,0,-80,0,1);
+    -webkit-transform: matrix3d(1,0,0.00,0,0.00,0.08,1.00,-0.001,0,-1,0.08,0,0,-80,0,1);
+    opacity: 0;
+}
+.transform-group:hover .transform-top{
+    transform: matrix3d(1,0,0.00,0,0.00,1,0.00,0,0,0,1,0,0,0,0,1);
+    -webkit-transform: matrix3d(1,0,0.00,0,0.00,1,0.00,0,0,0,1,0,0,0,0,1);
+    opacity:1;
+
+}
+.transform-group:hover .transform-bottom{
+    transform: matrix3d(1,0,0.00,0,0.00,0.1,0.99,0.001,0,-0.99,0.1,0,0,100,0,1);
+    -webkit-transform: matrix3d(1,0,0.00,0,0.00,0.1,0.99,0.001,0,-0.99,0.1,0,0,100,0,1);
+    opacity: 0;
+}
+
+.transform-top{
+    text-align: center;
+    background-color: #343434;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    transition: transform 0.7s ,opacity 0.7s;
+}
+.transform-bottom
+{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    transition: transform 0.7s ,opacity 0.7s;
+}
+#network-id{
+    background-color: #1b6d85;
+}
+#web-id{
+    background-color: #f5b120;
+}
+#database-id{
+    background-color: #3fa46a;
+}
+#design-id{
+    background-color: #a94442;
+}
+#marketing-id{
+    background-color: #204d74;
+}
+#tester-id{
+    background-color: #c7254e;
+}
+#office-id{
+    background-color: green;
+}
+#mobile-id{
+    background-color: darkorchid;
+}
+.text-bottom{
+    padding: 5px 0px;
+    margin-top: 30px;
+}
+
+.event-grid{
+    margin-bottom: 40px;
+    display: flex;
+}
+.envent-tittle{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px 20px;
+    background-color: #1b6d85;
+}
+.event-day{
+    text-align: center;
+}
+.event-day h3{
+    font-size: 4em;
+    color: #a2b040;
+}
+.event-day h4{
+    color: #3D3630;
+}
+.event-day h5{
+    color: red;
+}
+.event-text h4{
+    font-size: 2em;
+    color: #f2af00;
+    font-family: 'Marvel', sans-serif;
+}
+.event-text p{
+    font-size: 1em;
+    color: #777676;
+    line-height: 1.8em;
+    margin-top: 0.5em;
+}
+.btn-read-more{
+    background-color: #2e6da4;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn-read-more:hover{
+    background-color: #f2af00;
+    color: white;
+}
+.btn-learn-more:hover{
+    background-color:  #f2af00;
+    color:white ;
+}
+.my-img{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-learn-more{
+    background-color: #2e6da4;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.map{
+    margin-top: 30px;
+    display: flex;
+}
+.text-tittle{
+    text-align: center;
+    background-color: #2e6da4;
+    color: white;
+    padding: 10px 10px;
+    margin: 15px -15px;
+    border-radius: 10px;
+}
+.content{
+}
+.left-map{
+    line-height: 1.8em;
+}
+.footer{
+    margin-top: 40px;
+    background-color: black;
+}
+.top-footer{
+    height: 100px;
+    border-bottom: thin solid red;
+}
+#text-footer a:hover{
+    text-decoration: none;
+}
+#search-footer{
+    margin-top: 30px;
+}
