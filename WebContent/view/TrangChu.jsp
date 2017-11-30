@@ -1,6 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"    pageEncoding="UTF-8"%><!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +9,13 @@
     <title>Trung Tâm Tin Học Vũ Trụ</title>
     <link rel="stylesheet" href="theme/css/bootstrap.min.css">
     <link rel="stylesheet" href="theme/css/style.css">
-
+<script>
+$(document).ready(function(){
+    $(".web-id").click(function(){
+        $.get("gioithieukhoahoc.jsp")
+    });
+});
+</script>
 </head>
 <body>
     <header>
@@ -74,34 +79,34 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="theme/images/img_chania.jpg" alt="">
+                        <img src="theme/images/slide_index_1.jpg" alt="">
                         <div class="carousel-caption">
-                            <h3>Hoạt động ngoại khóa của học viên</h3>
-                            <p>Đội bóng mạnh nhất mùa giải năm nay do trung tâm tổ chức</p>
+                            <h3>Môi trường học</h3>
+                            <p>Cơ sở vật chất hiện đại cung cấp đầy đủ nhu cầu học và thực hành</p>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="theme/images/img_chania2.jpg" alt="">
+                        <img src="theme/images/slide-index-2.png" alt="">
                         <div class="carousel-caption">
-                            <h3>Giờ luyện tập</h3>
-                            <p>Giờ luyện tập nhẹ của các cầu thủ trước khi ra sân</p>
+                            <h3>Tin học văn phòng</h3>
+                            <p>Các khóa học phong phú word , excel , auto cad , ...</p>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="theme/images/img_flower.jpg" alt="">
+                        <img src="theme/images/slide_index_3.jpg" alt="">
                         <div class="carousel-caption">
-                            <h3>Biết nói là gì đây</h3>
-                            <p>Quá đẹp đấy mà!!!!</p>
+                            <h3>Lập trình</h3>
+                            <p>Nơi tiếp lửa đam mê lập trình , sản sinh ra những lập trình viên giỏi</p>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="theme/images/img_flower2.jpg" alt="">
+                        <img src="theme/images/slide_index_4.png" alt="">
                         <div class="carousel-caption">
-                            <h3>Trước khi ra sân</h3>
-                            <p>Không khí đã bắt đầu nóng lên</p>
+                            <h3>Khóa học lập trình</h3>
+                            <p>Các khóa học phong phú đa dạng với nhiều ngôn ngữ và cập nhập các công nghệ hiện đại nhất</p>
                         </div>
                     </div>   </div>
 

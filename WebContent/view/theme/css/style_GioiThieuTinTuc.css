@@ -173,7 +173,7 @@ nav a#pull-logo{
     }
     .content-title{
         float: left;
-        margin: 40px auto;
+        margin: 20px auto;
     }
     .infor p {
         font-size: 17px;
@@ -193,18 +193,137 @@ nav a#pull-logo{
     @media(max-width:700px) {
     .infor img {
             width: 500px;
-    }
-}
+    	}
+	}
     @media(max-width:500px) {
     .infor img {
             width: 300px;
-    }
+    	}
     }
     .Intro{
         margin-top: 10px;
-        background: green;
     }
+    
+/* other class */
+			.btn-primary {
+                background-color: #E7A331;
+                color: #ffffff;
+                border: 2px solid #E7A331;
+                text-transform: uppercase;
+                border-radius: 4px;
+            }
+            .btn-primary:hover {
+                background-color: #d6962c;
+                border-color: #d6962c;
+                color: #fff;
+            }
 
+			.portfolio{
+                background:center top no-repeat;
+                -moz-background-size: cover;
+                -webkit-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                width: 100%;
+                overflow: hidden;	
+            }
+
+            .portfolio_content{
+                padding-bottom:120px;
+                display:inline-block;
+            }
+            .portfolio .portfolio_content .head_title h3{
+                color:#000000;
+            }
+            .portfolio .portfolio_content .head_title h4{
+                color:#000000;
+            }
+
+            .single_portfolio_text{
+                display:inline-block;
+                padding:0;
+                position:relative;
+                overflow:hidden;
+
+            }
+            .single_portfolio_text img{
+                width:100%;
+            }
+
+            .single_portfolio_text:hover .portfolio_images_overlay{
+                top:5%;
+                left: 5%;
+            }
+
+            .portfolio_images_overlay{
+                width: 90%;
+                height: 90%;
+                background: rgba(0, 0, 0, .5);
+                padding: 20px;
+                margin: 0 auto;
+                top:-100%;
+                left: 5%;
+                position: absolute;
+                transition:.6s;
+            }
+            .portfolio_images_overlay h6{
+                text-transform:uppercase;
+                color:#fff;
+                font-size:15px;
+                line-height:2.575rem;
+                font-weight: 100;
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+            }
+
+            .portfolio_images_overlay p.product_price{
+                font-size:15px;
+                color:#fff;
+                line-height:3rem;
+            }
+            .portfolio_images_overlay .btn{
+                margin-top: 15px;
+            }
+
+            @media (min-width:769px) and (max-width:991px) {
+                .portfolio_images_overlay {
+                    padding: 0px;
+                }
+            }
+            @media (max-width:768px) {
+                .portfolio_images_overlay{
+                    padding: 50px 2px;
+                }
+                .portfolio_images_overlay .btn{
+                margin-top: -5px;
+            	}
+            }
+            @media (max-width:580px) {
+                .portfolio_images_overlay{
+                    padding: 40px 2px;
+                }
+                .portfolio_images_overlay .btn{
+                margin-top: -5px;
+            	}
+            }
+            @media (max-width:480px) {
+                .portfolio_images_overlay{
+                    padding: 30px 2px;
+                }
+                .portfolio_images_overlay .btn{
+                margin-top: -5px;
+            	}
+            }
+            @media (max-width:320px) {
+                .portfolio_images_overlay{
+                    padding: 20px;
+                }
+                .portfolio_images_overlay .btn{
+                margin-top: -5px;
+            	}
+            }
+		
+/* footer */
     .footer{
             margin-top:2%;
             background-color: black;

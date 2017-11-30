@@ -1,5 +1,4 @@
- <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+
         <%@ page language="java" contentType="text/html; charset=UTF-8"    pageEncoding="UTF-8"%><!DOCTYPE html>
         <html lang="en">
         <head>
@@ -291,36 +290,34 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-2 col-xs-12">
+                                <div class="col-md-3 col-xs-5">
                                     <div class="other_class">
-                                        <div class="boder-intro course-box">
-                                            <img src="theme/images/html5-css3.jpg" alt="html5-css3" class="image">
-                                            <div class="frame">
-                                                <div class="text_course">
-                                                    <span>JAVASCRIP/JQUERY</span><br>
-                                                    <span>Khai giảng 20/10/2017</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="boder-intro course-box">
-                                            <img src="theme/images/jr-jq.png" alt="javascrip-jquery" class="image">
-                                                <div class="frame">
-                                                    <div class="text_course">
-                                                        <span>BOOSTRAP</span><br>
-                                                        <span>Khai giảng 20/10/2017</span>
-                                                    </div>
-                                                </div>
-                                        </div>
-                                        <div class="boder-intro course-box">
-                                            <img src="theme/images/class thiết kế web.png" alt="thiết kế layout từ A-->Z" class="image">
-                                                <div class="frame">
-                                                    <div class="text_course">
-                                                        <span>Thiết kế Layout từ A->Z</span><br>
-                                                        <span>Khai giảng 01/11/2017</span>
-                                                    </div>
-                                                </div>
-                                        </div>
+											<div class="main_portfolio_content">
+					                                <div class="single_portfolio_text">
+					                                    <img src="theme/images/jr-jq.png" alt="" />
+					                                    <div class="portfolio_images_overlay text-center">
+					                                        <h6>JAVASCRIP/JQUERY</h6>
+					                                        <p class="product_price">Khai giảng 20/10/2017</p>
+					                                        <a href="#" class="btn btn-primary">Click here</a>
+					                                    </div>
+					                                </div>
+					                                <div class="single_portfolio_text">
+					                                    <img src="theme/images/boostrap.jpg" alt="" />
+					                                    <div class="portfolio_images_overlay text-center">
+					                                        <h6>BOOSTRAP</h6>
+					                                        <p class="product_price">Khai giảng 20/10/2017</p>
+					                                        <a href="#" class="btn btn-primary">Click here</a>
+					                                    </div>								
+					                                </div>
+					                                <div class="single_portfolio_text">
+					                                    <img src="theme/images/class thiết kế web.png" alt="" />
+					                                    <div class="portfolio_images_overlay text-center">
+					                                        <h6>Thiết kế web</h6>
+					                                        <p class="product_price">Khai giảng 20/10/2017</p>
+					                                        <a href="#" class="btn btn-primary">Click here</a>
+					                                    </div>								
+					                                </div>
+				                                 </div>
                                     </div>
                                 </div>
                                 </div>

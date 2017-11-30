@@ -2,14 +2,14 @@
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
-<%-- check if there is a session scope variable user --%>
+<%-- <%-- check if there is a session scope variable user --%>
 
-<c:if test="${empty sessionScope.user}">
-	<%-- redirect to Login.jsp --%>
+<%-- <c:if test="${empty sessionScope.user}">
+	redirect to Login.jsp
 	<c:redirect url="Login.jsp"/>
-</c:if>
+</c:if> --%> --%>
     
-<%@ page language="java" contentType="text/html; charset=UTF-8"    pageEncoding="UTF-8"%><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -47,7 +47,7 @@
 
       <header class="main-header">
         <!-- Logo -->
-        <a href="index.html" class="logo">
+        <a href="index.jsp" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>T</b>VT</span>
           <!-- logo for regular state and mobile devices -->
@@ -106,13 +106,13 @@
           <ul class="sidebar-menu">
             <li class="header">MENU</li>
             <li class="active">
-              <a href="../../index.html">
+              <a href="../../index.jsp">
                 <i class="fa fa-dashboard"></i> <span>Quản lý</span>
               </a>
             </li>
 
             <li class="treeview">
-              <a href="../statistic/statistic-online.html">
+              <a href="../statistic/statistic-online.jsp">
                 <i class="fa fa-bar-chart"></i>
                 <span>Thống kê</span>
               </a>
@@ -121,21 +121,21 @@
             <li class="header">DẠY VÀ HỌC</li>
 
             <li>
-              <a href="../courses/courses.html">
+              <a href="../courses/courses.jsp">
                 <i class="fa fa-code"></i>
                 <span>Khóa học</span>
               </a>
             </li>
 
             <li class="treeview">
-              <a href="../classes/classes.html">
+              <a href="../classes/classes.jsp">
                 <i class="fa fa-free-code-camp"></i>
                 <span>Lớp học</span>
               </a>
             </li>
 
             <li class="treeview">
-              <a href="../schedule/schedule.html">
+              <a href="../schedule/schedule.jsp">
                 <i class="fa fa-calendar"></i>
                 <span>Thời khóa biểu</span>
               </a>
@@ -143,7 +143,7 @@
 
 
             <li class="treeview">
-              <a href="../students/students.html">
+              <a href="../students/students.jsp">
                 <i class="fa fa-users"></i>
                 <span>Học viên</span>
               </a>
@@ -187,7 +187,7 @@
             </li>
 
             <li class="treeview">
-              <a href="../payment/paymented.html">
+              <a href="../payment/paymented.jsp">
                 <i class="fa fa-credit-card"></i>
                 <span>Thanh toán lương</span>
               </a>
@@ -239,7 +239,7 @@
                 <div class="icon">
                   <i class="ion ion-person-add"></i>
                 </div>
-                <a href="pages/students/students-enrollment.html" class="small-box-footer">Thông tin <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="pages/students/students-enrollment.jsp" class="small-box-footer">Thông tin <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div><!-- ./col -->
 
@@ -266,7 +266,7 @@
                 <div class="icon">
                   <i class="fa fa-free-code-camp"></i>
                 </div>
-                <a href="pages/classes/classes.html" class="small-box-footer">Xem thêm <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="pages/classes/classes.jsp" class="small-box-footer">Xem thêm <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div><!-- ./col -->
             <div class="col-lg-3 col-xs-6">
@@ -279,7 +279,7 @@
                 <div class="icon">
                   <i class="ion ion-stats-bars"></i>
                 </div>
-                <a href="pages/statistic/statistic-online.html" class="small-box-footer">Xem thêm <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="pages/statistic/statistic-online.jsp" class="small-box-footer">Xem thêm <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div><!-- ./col -->
 

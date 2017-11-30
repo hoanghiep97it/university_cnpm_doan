@@ -1,6 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"    pageEncoding="UTF-8"%><!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -106,9 +105,35 @@
 	   			<p>Khi mà các website đang ngày càng chú trọng nội dung thì năm 2017, landing page sẽ được chú trọng cao hơn cả home page. Mặc dù website nào cũng cần một home page nhưng một khi xu hướng marketing bằng nội dung vẫn tiếp tục lan tỏa thì các marketing có lẽ vẫn sẽ muốn hướng người dùng tới landing page hơn dể target và convert khách hàng. Landing page còn ưu việt hơn home page ở chỗ nó cho phép các marketer tiến hành A/B test và sửa đổi hiển thị quảng cáo dễ dàng hơn; trong khi đó home page lại khiến người truy cập bị lạc vào một mớ quá nhiều thông tin chi tiết mà họ chưa cần.</p>
 	   		</div>
 	   	</div>
-	   	<div class="col-md-3 Intro">
+	   	<div class="col-md-3 col-xs-6 Intro">
 	   			<h3>Giới thiệu</h3>
-	   		</div>
+	   						<div class="main_portfolio_content">
+					          <div class="single_portfolio_text">
+					                                    <img src="theme/images/jr-jq.png" alt="" />
+					                                    <div class="portfolio_images_overlay text-center">
+					                                        <h6>JAVASCRIP/JQUERY</h6>
+					                                        <p class="product_price">Khai giảng 20/10/2017</p>
+					                                        <a href="#" class="btn btn-primary">Click here</a>
+					                                    </div>
+					                                </div>
+					                                <div class="single_portfolio_text">
+					                                    <img src="theme/images/boostrap.jpg" alt="" />
+					                                    <div class="portfolio_images_overlay text-center">
+					                                        <h6>BOOSTRAP</h6>
+					                                        <p class="product_price">Khai giảng 20/10/2017</p>
+					                                        <a href="#" class="btn btn-primary">Click here</a>
+					                                    </div>								
+					                                </div>
+					                                <div class="single_portfolio_text">
+					                                    <img src="theme/images/class thiết kế web.png" alt="" />
+					                                    <div class="portfolio_images_overlay text-center">
+					                                        <h6>Thiết kế web</h6>
+					                                        <p class="product_price">Khai giảng 20/10/2017</p>
+					                                        <a href="#" class="btn btn-primary">Click here</a>
+					                                    </div>								
+					                                </div>
+				                                 </div>
+	   	</div>
 	   </div>
 	</div>
    	<div class="footer">
